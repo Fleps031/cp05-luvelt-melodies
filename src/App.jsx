@@ -10,6 +10,8 @@ import Reviews from './components/reviews/Reviews'
 import Footer from './components/footer/Footer'
 import Contact from './components/contact/Contact'
 
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 function App() {
   return (
     <>

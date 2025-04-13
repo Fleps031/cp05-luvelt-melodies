@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Logo from '../../assets/Logo.svg';  
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -12,12 +13,9 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-16">
         {/* Logo */}
         <div className="flex-shrink-0">
-          <a href="#">
-            {/* SVG logo placeholder */}
-            <svg width="40" height="40" fill="none" xmlns="http://www.w3.org/2000/svg">
-              {/* Insira aqui o código do seu logo em SVG */}
-            </svg>
-          </a>
+        <a href="#">
+          <img src={Logo} alt="Logo" className="w-10 h-10" />
+        </a>
         </div>
         {/* Menu para telas maiores */}
         <nav className="hidden md:flex space-x-4">
