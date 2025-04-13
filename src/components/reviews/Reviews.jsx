@@ -5,22 +5,7 @@ import '../reviews/Reviews.css';
 
 const Reviews = () => {
   return (
-    <div className="min-h-screen bg-white">
-    <div className="pt-20"></div>
-      
-      <main>
-        {/* Seção Hero */}
-        <section className="py-12 bg-gray-200 text-center">
-          <div className="max-w-7xl mx-auto px-4">
-            <h1 className="text-4xl font-bold text-gray-800">Melodia: Sua Música, Sua Forma</h1>
-            <p className="mt-4 text-gray-600">Descubra uma nova forma de curtir as melhores playlists e artistas!</p>
-            <a href="#"
-              className="mt-6 inline-block bg-pink-500 text-white py-2 px-6 rounded hover:bg-pink-600 transition">
-              Ouvir Agora
-            </a>
-          </div>
-        </section>
-        
+    <div className="bg-white">      
         {/* Seção de Depoimentos (Reviews) */}
         <section id="reviews" className="py-12 bg-gray-100">
           <div className="max-w-7xl mx-auto px-4">
@@ -61,10 +46,7 @@ const Reviews = () => {
               </div>
             </div>
           </div>
-        </section>
-      </main>
-      
-
+        </section>      
     </div>
   );
 };
