@@ -9,20 +9,20 @@ const Header = () => {
   };
 
   return (
-    <header className="w-full fixed top-0 z-50 bg-black bg-opacity-50 backdrop-filter backdrop-blur-lg">
+    <header className="w-full fixed top-0 z-50 bg-white bg-opacity-50 backdrop-filter backdrop-blur-lg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-16">
         {/* Logo */}
         <div className="flex-shrink-0">
         <a href="#">
-          <img src={Logo} alt="Logo" className="w-10 h-10" />
+          <img src={Logo} alt="Logo" className="w-12 h-12" />
         </a>
         </div>
         {/* Menu para telas maiores */}
         <nav className="hidden md:flex space-x-4">
-          <a href="#" className="text-gray-300 hover:text-pink-500">Home</a>
-          <a href="#reviews" className="text-gray-300 hover:text-pink-500">Depoimentos</a>
-          <a href="#" className="text-gray-300 hover:text-pink-500">Sobre</a>
-          <a href="#" className="text-gray-300 hover:text-pink-500">Contato</a>
+          <a href="#" className="text-gray-900 hover:text-pink-500">Home</a>
+          <a href="#reviews" className="text-gray-900 hover:text-pink-500">Depoimentos</a>
+          <a href="#" className="text-gray-900 hover:text-pink-500">Sobre</a>
+          <a href="#" className="text-gray-900 hover:text-pink-500">Contato</a>
         </nav>
         {/* Botão de call-to-action para desktop */}
         <div className="hidden md:block">
@@ -50,10 +50,10 @@ const Header = () => {
       {isMobileMenuOpen && (
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-            <a href="#" className="block text-gray-300 hover:text-pink-500">Home</a>
-            <a href="#reviews" className="block text-gray-300 hover:text-pink-500">Depoimentos</a>
-            <a href="#" className="block text-gray-300 hover:text-pink-500">Sobre</a>
-            <a href="#" className="block text-gray-300 hover:text-pink-500">Contato</a>
+            <a href="#" className="block text-gray-900 hover:text-pink-500">Home</a>
+            <a href="#reviews" className="block text-gray-900 hover:text-pink-500">Depoimentos</a>
+            <a href="#" className="block text-gray-900 hover:text-pink-500">Sobre</a>
+            <a href="#" className="block text-gray-900 hover:text-pink-500">Contato</a>
             <a href="#"
                className="block bg-pink-500 text-white py-2 px-4 rounded hover:bg-pink-600 transition">
               Ouvir Agora

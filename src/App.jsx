@@ -15,15 +15,13 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 function App() {
   return (
     <>
-    
       <Header></Header>    
       <Hero></Hero>
       <Presentation></Presentation>
       <Features></Features> 
       <Reviews></Reviews>
-       <Contact></Contact>      
+      <Contact></Contact>      
       <Footer></Footer> 
-      
     </>
   )
 }
