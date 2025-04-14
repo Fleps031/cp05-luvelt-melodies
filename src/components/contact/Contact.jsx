@@ -18,7 +18,7 @@ function Contact() {
         <h1 className="text-gray-800 font-bold text-3xl md:text-4xl bg-gray-200 py-4 rounded">
           Se interessou? Olhe nossos planos!
         </h1>
-      </div>
+      </div>  
       <div className="flex flex-wrap justify-center gap-10 px-4">
         <ContactCard textos={descricaocards[0]}></ContactCard>
         <ContactCard textos={descricaocards[1]}></ContactCard>

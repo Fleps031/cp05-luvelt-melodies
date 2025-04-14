@@ -14,10 +14,13 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-body {
+* {
   margin: 0;
-  display: flex;
+  max-width: 100%;
+}
+
+body {
   place-items: center;
   min-width: 320px;
-  min-height: 100vh;
+  min-height: 100vh;  
 }
