@@ -19,6 +19,7 @@
 }
 
 body {
+  background-color: white;
   margin: 0;
   place-items: center;
   min-width: 320px;

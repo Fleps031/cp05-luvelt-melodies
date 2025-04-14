@@ -18,7 +18,7 @@ const Header = () => {
         </a>
         </div>
         {/* Menu para telas maiores */}
-        <nav className="hidden md:flex space-x-4 gap-8">
+        <nav className="hidden md:flex  gap-8">
           <a href="#hero" className="text-gray-900 hover:text-pink-500">Hero</a>
           <a href="#presentation" className="text-gray-900 hover:text-pink-500">Apresentação</a>
           <a href="#features" className="text-gray-900 hover:text-pink-500">Funcionalidades</a>

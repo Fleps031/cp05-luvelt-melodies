@@ -16,7 +16,7 @@ function App() {
   return (
     <>
       <Header></Header>
-      <div className='flex flex-col w-full mt-20'>
+      <div className='flex flex-col w-full mt-10'>
         <Hero id="hero" className="pt-20"></Hero>
         <Presentation id="presentation" className="pt-20"></Presentation>
         <Features></Features>  

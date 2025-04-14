@@ -5,7 +5,7 @@ import Vinil from '../../assets/Vinil.svg'
 function Hero() {
     return (
       <>
-        <div className='
+        <div id='hero' className='
             flex 
             flex-col 
             align-center 
@@ -18,7 +18,6 @@ function Hero() {
             bg-gray-950
             overflow-hidden
             mb-8
-            hero
             '
           >
           <div className='flex h-[100%] text-white md:p-2 min-[0px]:px-4 min-[0px]:pt-10 min-[0px]:flex-col md:flex-row md:align-middle md: justify-center'>
