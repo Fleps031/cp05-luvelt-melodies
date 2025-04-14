@@ -4,11 +4,10 @@ import ContactCard from './ContactCard';
 function Contact() {
   
   const descricaocards = [
-    ['Individual', '1 Conta Premium', 'Cancele quando quiser', 'Assinatura mensal ou pagamento único'],
-    ['Universitário', '1 Conta Premium verificada', 'Desconto para estudantes (que atendam aos critérios de qualificação)', 'Cancele quando quiser'],
-    ['Duo', '2 Contas verificadas', 'Cancele quando quiser', 'Faça uma assinatura ou pague uma vez só'],
-    ['Família', 'Até 6 contas Premium ou Kids', 'Controle conteúdo marcado como explícito', 'Acesso ao Spotify Kids', 'Cancele quando quiser', 'Faça uma assinatura ou pague uma vez só'],
-    ['Assinar o Premium Individual', 'Assinar o Premium Universitário', 'Assinar o Premium Duo', 'Assinar o Premium Família'],
+    ['Individual', '1 Conta Premium', 'Cancele quando quiser', 'Assinatura mensal ou pagamento único', 'Assinar o Premium Individual'],
+    ['Universitário', '1 Conta Premium verificada', 'Desconto para estudantes (que atendam aos critérios de qualificação)', 'Cancele quando quiser', 'Assinar o Premium Universitário'],
+    ['Duo', '2 Contas verificadas', 'Cancele quando quiser', 'Faça uma assinatura ou pague uma vez só', 'Assinar o Premium Duo'],
+    ['Família', 'Até 6 contas Premium ou Kids', 'Controle conteúdo marcado como explícito', 'Faça uma assinatura ou pague uma vez só', 'Assinar o Premium Família'],
   ]
   
   
@@ -24,7 +23,9 @@ function Contact() {
         <ContactCard textos={descricaocards[1]}></ContactCard>
         <ContactCard textos={descricaocards[2]}></ContactCard>
         <ContactCard textos={descricaocards[3]}></ContactCard>
-        <ContactCard textos={descricaocards[4]}></ContactCard>
+      </div>
+      <div>
+        
       </div>
     </section>
   );
