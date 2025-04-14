@@ -1,5 +1,6 @@
 function ContactCard({ textos }) {
   return (
+    <section id="plans">
     <div className="flex flex-col bg-black rounded-2xl shadow-lg p-6 h-full">
       <h2 className="text-xl font-semibold mb-3 text-white text-center">{textos[0]}</h2>
 
@@ -18,6 +19,7 @@ function ContactCard({ textos }) {
         </a>
       </div>
     </div>
+    </section>
   );
 }
 

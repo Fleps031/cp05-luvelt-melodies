@@ -9,7 +9,7 @@ const Header = () => {
   };
 
   return (
-    <header className="w-full fixed top-0 z-50 bg-white bg-opacity-50 backdrop-filter backdrop-blur-lg">
+    <header className="w-full fixed top-0 z-50 bg-white bg-opacity-50 backdrop-filter backdrop-blur-lg shadow-lg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-16">
         {/* Logo */}
         <div className="flex-shrink-0">
@@ -19,10 +19,12 @@ const Header = () => {
         </div>
         {/* Menu para telas maiores */}
         <nav className="hidden md:flex space-x-4 gap-8">
-          <a href="#" className="text-gray-900 hover:text-pink-500">Home</a>
+          <a href="#hero" className="text-gray-900 hover:text-pink-500">Hero</a>
+          <a href="#presentation" className="text-gray-900 hover:text-pink-500">Apresentação</a>
+          <a href="#features" className="text-gray-900 hover:text-pink-500">Funcionalidades</a>
           <a href="#reviews" className="text-gray-900 hover:text-pink-500">Depoimentos</a>
-          <a href="#" className="text-gray-900 hover:text-pink-500">Sobre</a>
-          <a href="#" className="text-gray-900 hover:text-pink-500">Contato</a>
+          <a href="#plans" className="text-gray-900 hover:text-pink-500">Planos</a>
+          <a href="#contact" className="text-gray-900 hover:text-pink-500">Contatos</a>
         </nav>
         {/* Botão de call-to-action para desktop */}
         <div className="hidden md:block">

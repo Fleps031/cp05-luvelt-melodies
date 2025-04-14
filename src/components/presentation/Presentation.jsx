@@ -6,10 +6,11 @@ import produzindoUsuario from "../../assets/img/produzindousuario.jpeg";
 function Presentation() {
     return (
       <>
+      <section id='presentation'>
         <div className="text-center text-[#E60076] text-4xl sm:text-5xl md:text-6xl bg-white">
           <h1>Luvelt Melodies</h1>
         </div>
-        <div className="flex flex-col lg:flex-row bg-white justify-center items-center px-4">
+        <div className="flex flex-col lg:flex-row bg-white justify-center items-center px-4 bg-white  ">
           <div className="flex flex-col m-4 gap-5 p-8 w-full sm:w-[500px] md:w-[600px] h-auto sm:h-[500px] md:h-[500px] rounded-lg card-review bg-white text-black transition-transform duration-300 ease-in-out hover:translate-y-[-4px] shadow-[0_10px_15px_#d772a6] hover:shadow-pink">
             <h1 className="text-center text-[#E60076] text-2xl sm:text-3xl">Quem somos?</h1>
             <p className="text-center text-sm sm:text-base">Desde 2025 produzimos o melhor espaço para ouvintes e artistas juntos ouvirem e criarem músicas de qualidade extrema. Nosso foco sempre foi a idealização de uma plataforma livre para novos artistas e organizada para todos! Aproveite um sistema único e inovador que promete revolucionar a forma como a música é propagada!</p>
@@ -26,6 +27,7 @@ function Presentation() {
             </div>
           </div>
         </div>
+        </section>
       </>   
     );
 }

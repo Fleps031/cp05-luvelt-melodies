@@ -12,9 +12,9 @@ function Contact() {
   
   
   return (
-    <section className="w-full bg-zinc-100 py-12 ">
+    <section id='contact' className=" w-full bg-white py-12 ">
       <div className="text-center mb-10">
-        <h1 className="text-gray-800 font-bold text-3xl md:text-4xl bg-gray-200 py-4 rounded">
+        <h1 className="text-gray-800 font-bold text-3xl md:text-4xl bg-white py-4 rounded">
           Se interessou? Olhe nossos planos!
         </h1>
       </div>  
@@ -26,7 +26,7 @@ function Contact() {
       </div>
       <section className="w-full bg-white py-12 px-4">
   <div className="max-w-3xl mx-auto text-center mb-10">
-    <h2 className="text-3xl md:text-4xl font-bold text-gray-800 bg-gray-200 py-4 rounded">
+    <h2 className="text-3xl md:text-4xl font-bold text-gray-800 bg-white py-4 rounded">
       Entre em contato com a gente
     </h2>
     <p className="mt-2 text-gray-600">

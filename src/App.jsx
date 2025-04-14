@@ -17,9 +17,9 @@ function App() {
     <>
       <Header></Header>
       <div className='flex flex-col w-full mt-20'>
-        <Hero></Hero>
-        <Presentation></Presentation>
-        <Features></Features> 
+        <Hero id="hero" className="pt-20"></Hero>
+        <Presentation id="presentation" className="pt-20"></Presentation>
+        <Features></Features>  
         <Reviews></Reviews>
         <Contact></Contact>      
         <Footer></Footer> 

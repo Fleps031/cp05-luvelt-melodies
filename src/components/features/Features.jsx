@@ -25,7 +25,7 @@ export default function FeaturesSection() {
   ];
 
   return (
-    <section className="bg-white py-12 px-4 sm:px-6 lg:px-8 text-center" id="features">
+    <section className="features bg-white py-12 px-4 sm:px-6 lg:px-8 text-center" id="features">
       <h2 className="text-2xl sm:text-3xl font-bold text-pink-600 mb-10">
         Funcionalidades do Luvelt
       </h2>
