@@ -13,7 +13,7 @@ const Reviews = () => {
             <div className="grid gap-12 md:grid-cols-3 lg:grid-cols-3">
               {}
               <div className="card-review bg-white p-6 rounded-lg shadow-lg">
-                <p className="text-gray-600 mb-4">"Melodia revolucionou minha maneira de ouvir música! Incrível e intuitivo."</p>
+                <p className="text-gray-600 mb-4">"Luvelt Melodies revolucionou minha maneira de ouvir música! Incrível e intuitivo."</p>
                 <div className="flex items-center">
                   <img className="h-10 w-10 rounded-full" src="https://randomuser.me/api/portraits/men/32.jpg" alt="Usuário"/>
                   <div className="ml-4">

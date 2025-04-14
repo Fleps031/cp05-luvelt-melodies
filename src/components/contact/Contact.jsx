@@ -40,11 +40,12 @@ function Contact() {
         Nome
       </label>
       <input
-        id="nome"
-        type="text"
-        placeholder="Seu nome"
-        className="w-full p-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-pink-500"
+      id="nome"
+      type="text"
+      placeholder="Seu nome"
+      className="w-full p-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-pink-500 text-gray-800 bg-white"
       />
+
     </div>
 
     <div>
@@ -52,11 +53,12 @@ function Contact() {
         Email
       </label>
       <input
-        id="email"
-        type="email"
-        placeholder="seuemail@exemplo.com"
-        className="w-full p-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-pink-500"
+      id="email"
+      type="email"
+      placeholder="Seu Email"
+      className="w-full p-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-pink-500 text-gray-800 bg-white"
       />
+
     </div>
 
     <div>
@@ -64,10 +66,10 @@ function Contact() {
         Mensagem
       </label>
       <textarea
-        id="mensagem"
-        rows="5"
-        placeholder="Escreva sua mensagem..."
-        className="w-full p-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-pink-500"
+      id="mensagem"
+      rows="5"
+      placeholder="Escreva sua mensagem..."
+      className="w-full p-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-pink-500 text-gray-800 bg-white"
       />
     </div>
 
