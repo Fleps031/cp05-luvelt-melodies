@@ -10,18 +10,21 @@ import Reviews from './components/reviews/Reviews'
 import Footer from './components/footer/Footer'
 import Contact from './components/contact/Contact'
 
-import '@fortawesome/fontawesome-free/css/all.min.css';
+import '@fortawesome/fontawesome-free/css/all.min.css'; 
 
 function App() {
   return (
     <>
+
       <Header></Header>    
       <Hero></Hero>
       <Presentation></Presentation>
       <Features></Features> 
       <Reviews></Reviews>
       <Contact></Contact>      
-      <Footer></Footer> 
+      <Footer></Footer>
+
+           
     </>
   )
 }
