@@ -15,13 +15,15 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 function App() {
   return (
     <>
-      <Header></Header>    
-      <Hero></Hero>
-      <Presentation></Presentation>
-      <Features></Features> 
-      <Reviews></Reviews>
-      <Contact></Contact>      
-      <Footer></Footer> 
+      <Header></Header>
+      <div className='flex flex-col w-full mt-20'>
+        <Hero></Hero>
+        <Presentation></Presentation>
+        <Features></Features> 
+        <Reviews></Reviews>
+        <Contact></Contact>      
+        <Footer></Footer> 
+      </div>
     </>
   )
 }
