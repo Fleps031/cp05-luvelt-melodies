@@ -10,10 +10,10 @@ const Reviews = () => {
         <section id="reviews" className="py-12 bg-gray-100">
           <div className="max-w-7xl mx-auto px-4">
             <h2 className="text-3xl font-bold text-center text-gray-800 mb-8">Depoimentos</h2>
-            <div className="grid gap-12 md:grid-cols-4 lg:grid-cols-3">
+            <div className="grid gap-12 md:grid-cols-3 lg:grid-cols-3">
               {}
               <div className="card-review bg-white p-6 rounded-lg shadow-lg">
-                <p className="text-gray-600 mb-4">"Melodia revolucionou minha maneira de ouvir música! Incrível e intuitivo."</p>
+                <p className="text-gray-600 mb-4">"Luvelt Melodies revolucionou minha maneira de ouvir música! Incrível e intuitivo."</p>
                 <div className="flex items-center">
                   <img className="h-10 w-10 rounded-full" src="https://randomuser.me/api/portraits/men/32.jpg" alt="Usuário"/>
                   <div className="ml-4">
