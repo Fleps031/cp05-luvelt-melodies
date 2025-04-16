@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
-  base: "/cp05-luvelt-melodies"
+  base: "/cp05-luvelt-melodies/"
 })

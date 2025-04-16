@@ -35,7 +35,7 @@ function Hero() {
                 <h1>Nós <u className='text-[#E60076]'>revolucionamos</u> a forma com que você ouve música.</h1>
               </div>
               <div className='flex text-2xl text-center justify-center'>
-                <h2>Com o aplicativo Luvelt Melodia, milhões de artistas e músicas estão apenas alguns toques de distância</h2> 
+                <h2>Com o aplicativo Luvelt Melodies, milhões de artistas e músicas estão apenas alguns toques de distância</h2> 
               </div>
               <div className='flex w-full justify-center'>
                 <button className='border-4 w-[40%] h-16 rounded-2xl p-2 text-2xl hover:border-[#E60076] hover:cursor-pointer hover:text-[#E60076]'>Ouvir agora</button>
@@ -67,7 +67,7 @@ function Hero() {
               <h1>Nós <u className='text-[#E60076]'>revolucionamos</u> a forma com que você ouve música.</h1>
             </div>
             <div className='flex text-2xl text-center justify-center'>
-              <h2>Com o aplicativo Luvelt Melodia, milhões de artistas e músicas estão apenas alguns toques de distância</h2> 
+              <h2>Com o aplicativo Luvelt Melodies, milhões de artistas e músicas estão apenas alguns toques de distância</h2> 
             </div>
             <div className='flex w-full justify-center'>
               <button className='border-4 w-[40%] h-16 rounded-2xl p-2 text-2xl hover:border-[#E60076] hover:cursor-pointer hover:text-[#E60076]'>Ouvir agora</button>
