@@ -18,7 +18,7 @@ const Header = () => {
         </a>
         </div>
         {/* Menu para telas maiores */}
-        <nav className="hidden md:flex  gap-8">
+        <nav className="hidden md:flex gap-8 p-2">
           <a href="#hero" className="text-gray-900 hover:text-pink-500">Hero</a>
           <a href="#presentation" className="text-gray-900 hover:text-pink-500">Apresentação</a>
           <a href="#features" className="text-gray-900 hover:text-pink-500">Funcionalidades</a>
@@ -27,9 +27,9 @@ const Header = () => {
           <a href="#contact" className="text-gray-900 hover:text-pink-500">Contatos</a>
         </nav>
         {/* Botão de call-to-action para desktop */}
-        <div className="hidden md:block">
+        <div className="hidden md:flex min-w-[160px] justify-center">
           <a href="#"
-             className="bg-pink-500 text-white py-2 px-4 rounded hover:bg-pink-600 transition">
+             className="bg-pink-500 text-white py-2 px-4 rounded hover:bg-pink-600 transition w-[88%] text-center">
             Ouvir Agora
           </a>
         </div>

@@ -16,8 +16,8 @@ function App() {
   return (
     <>
       <Header></Header>
-      <div className='flex flex-col w-full mt-10'>
-        <Hero id="hero" className="pt-20"></Hero>
+      <div className='flex flex-col w-full mt-16'>
+        <Hero id="hero"></Hero>
         <Presentation id="presentation" className="pt-20"></Presentation>
         <Features></Features>  
         <Reviews></Reviews>
